@@ -318,9 +318,22 @@ const Navbar = () => {
   return (
     <>
       {/* Top Banner - Updated Theme */}
-     <div className="bg-gradient-to-r from-cyan-600 to-emerald-600 text-white text-center py-2.5 text-sm font-medium tracking-wider">
-        🎉 Free Shipping on Orders Above ₹999 | Use Code: <span className="font-extrabold">FREESHIP</span>
-      </div>
+    <div className="bg-gradient-to-r from-yellow-600 to-amber-800 text-yellow-100 text-center py-2.5 text-sm font-medium tracking-wider relative overflow-hidden">
+  🎉 Free Shipping on Orders Above ₹999 | Use Code: <span className="font-extrabold text-yellow-300">FREESHIP</span>
+  <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1440 60%22%3E%3Cpath fill=%22%23facc15%22 fill-opacity=%220.2%22 d=%22M0,32L48,40C96,48,192,64,288,61.3C384,59,480,37,576,37.3C672,38,768,59,864,64C960,69,1056,59,1152,53.3C1248,48,1344,48,1392,48L1440,48V0H1392C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0H0Z%22/%3E%3C/svg%3E')] bg-no-repeat animate-wave"></div>
+</div>
+
+<style>
+{`
+  @keyframes wave {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  .animate-wave {
+    animation: wave 8s linear infinite;
+  }
+`}
+</style>
 
       {/* Main Navbar */}
       <nav className="backdrop-blur-xl bg-white/90 shadow-sm sticky top-0 z-50 transition-all">

@@ -260,20 +260,67 @@ const Home = () => {
       </section>
 
       {/* Combo Builder CTA */}
-      <section className="py-16 bg-gradient-to-r from-cyan-600 to-emerald-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Create Your Perfect Combo</h2>
-          <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
-            Mix and match your favorite items and save more with our innovative combo builder
-          </p>
-          <Link
-            to="/combo"
-            className="inline-block bg-white text-cyan-600 px-8 py-4 rounded-lg text-lg font-medium hover:bg-gray-100 transition-colors transform hover:scale-105"
-          >
-            Start Building Your Combo
-          </Link>
-        </div>
-      </section>
+      <section className="py-16 bg-gradient-to-r from-yellow-600 to-amber-800 relative overflow-hidden">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-100 mb-6 animate-fade-in-up">
+      Craft Your Perfect Combo
+    </h2>
+    <p className="text-xl md:text-2xl text-amber-200 mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200">
+      Mix and match your favorite styles, save more with our stunning combo builder!
+    </p>
+    <Link
+      to="/combo"
+      className="inline-block bg-yellow-300 text-amber-900 px-10 py-5 rounded-xl text-xl font-semibold hover:bg-yellow-400 transition-all duration-300 transform hover:scale-110 animate-pulse-once"
+    >
+      Start Creating Now
+    </Link>
+  </div>
+  {/* Decorative Elements with Animation */}
+  <div className="absolute top-0 left-0 w-1/3 h-full bg-[url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1440 320%22%3E%3Cpath fill=%22%23facc15%22 fill-opacity=%220.3%22 d=%22M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,74.7C672,75,768,117,864,128C960,139,1056,117,1152,106.7C1248,96,1344,96,1392,96L1440,96V320H1392C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320H0Z%22/%3E%3C/svg%3E')] bg-no-repeat animate-wave"></div>
+  <div className="absolute top-0 right-0 w-1/3 h-full bg-[url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1440 320%22%3E%3Cpath fill=%22%23facc15%22 fill-opacity=%220.3%22 d=%22M0,64L48,80C96,96,192,128,288,122.7C384,117,480,75,576,74.7C672,75,768,117,864,128C960,139,1056,117,1152,106.7C1248,96,1344,96,1392,96L1440,96V0H1392C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0H0Z%22/%3E%3C/svg%3E')] bg-no-repeat animate-wave-reverse"></div>
+</section>
+
+<style>
+{`
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes pulseOnce {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  @keyframes wave {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  @keyframes waveReverse {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  .animate-fade-in-up.delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animate-pulse-once {
+    animation: pulseOnce 2s ease-in-out 1;
+  }
+  .animate-wave {
+    animation: wave 10s linear infinite;
+  }
+  .animate-wave-reverse {
+    animation: waveReverse 10s linear infinite;
+  }
+`}
+</style>
 
       {/* Testimonials */}
       <section className="py-16 bg-gray-50">
