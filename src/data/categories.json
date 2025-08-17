@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Clothing",
+    "image": "../src/assets/Mens.png",
+    "description": "Discover the latest trends in men's fashion",
+    "productCount": 156
+  },
+  {
+    "id": 2,
+    "name": "Women's Clothing",
+    "image": "../src/assets/Womens.png",
+    "description": "Elegant and stylish women's apparel",
+    "productCount": 234
+  },
+  {
+    "id": 3,
+    "name": "Footwear",
+    "image": "../src/assets/footware.png",
+    "description": "Comfortable and trendy footwear for all occasions",
+    "productCount": 89
+  },
+  {
+    "id": 4,
+    "name": "Accessories",
+    "image": "../src/assets/Accessories.png",
+    "description": "Complete your look with our premium accessories",
+    "productCount": 67
+  },
+  {
+    "id": 5,
+    "name": "Kids Wear",
+    "image": "../src/assets/Kids.png",
+    "description": "Adorable and comfortable clothing for kids",
+    "productCount": 78
+  },
+  {
+    "id": 6,
+    "name": "Sports & Active",
+    "image": "../src/assets/Sports.png",
+    "description": "Performance wear for active lifestyles",
+    "productCount": 45
+  }
+]

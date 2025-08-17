@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Sharma",
+    "location": "Mumbai",
+    "rating": 5,
+    "comment": "Amazing quality and fit! The t-shirts are super comfortable and the delivery was quick. Highly recommended!",
+    "image": "/placeholder.svg?height=80&width=80",
+    "product": "Premium Cotton T-Shirt"
+  },
+  {
+    "id": 2,
+    "name": "Priya Patel",
+    "location": "Delhi",
+    "rating": 5,
+    "comment": "Love the variety and quality. The jeans fit perfectly and the customer service is excellent!",
+    "image": "/placeholder.svg?height=80&width=80",
+    "product": "Slim Fit Denim Jeans"
+  },
+  {
+    "id": 3,
+    "name": "Rohit Kumar",
+    "location": "Bangalore",
+    "rating": 4,
+    "comment": "Great collection and affordable prices. The combo offers are fantastic value for money!",
+    "image": "/placeholder.svg?height=80&width=80",
+    "product": "Combo Pack"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Gupta",
+    "location": "Chennai",
+    "rating": 5,
+    "comment": "Excellent fabric quality and trendy designs. My go-to brand for casual wear!",
+    "image": "/placeholder.svg?height=80&width=80",
+    "product": "Printed Graphic Hoodie"
+  }
+]
