@@ -283,7 +283,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { Transition } from "@headlessui/react";
 
-import logo from "../assets/Logo.png";
+import logo from "../../public/Logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

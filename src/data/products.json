@@ -9,7 +9,7 @@
     "discount": 31,
     "rating": 4.5,
     "reviews": 128,
-    "image": "../src/assets/product/cottonTshirt.png?height=600&width=800",
+    "image": "../../public/product/cottonTshirt.png?height=600&width=800",
     "colors": ["Black", "White", "Blue", "Red"],
     "sizes": ["S", "M", "L", "XL", "XXL"],
     "description": "Premium quality cotton t-shirt with comfortable fit and modern design."
@@ -24,7 +24,7 @@
     "discount": 27,
     "rating": 4.7,
     "reviews": 89,
-    "image": "../src/assets/product/ElegantSummerDress.png",
+    "image": "../../public/product/ElegantSummerDress.png",
     "colors": ["Pink", "Blue", "Yellow", "White"],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": "Beautiful summer dress perfect for casual and semi-formal occasions."
@@ -39,7 +39,7 @@
     "discount": 24,
     "rating": 4.3,
     "reviews": 156,
-    "image": "../src/assets/product/ClassicDenimJeans.png",
+    "image": "../../public/product/ClassicDenimJeans.png",
     "colors": ["Blue", "Black", "Gray"],
     "sizes": ["28", "30", "32", "34", "36", "38"],
     "description": "Classic fit denim jeans with premium quality fabric and modern styling."
@@ -54,7 +54,7 @@
     "discount": 24,
     "rating": 4.6,
     "reviews": 203,
-    "image": "../src/assets/product/StylishSnekers.png",
+    "image": "../../public/product/StylishSnekers.png",
     "colors": ["White", "Black", "Blue", "Red"],
     "sizes": ["6", "7", "8", "9", "10", "11"],
     "description": "Comfortable and stylish sneakers perfect for daily wear and sports activities."
@@ -69,7 +69,7 @@
     "discount": 30,
     "rating": 4.8,
     "reviews": 67,
-    "image": "../src/assets/product/DesignerHandbag.png",
+    "image": "../../public/product/DesignerHandbag.png",
     "colors": ["Brown", "Black", "Tan"],
     "sizes": ["One Size"],
     "description": "Premium leather handbag with elegant design and spacious compartments."
@@ -84,7 +84,7 @@
     "discount": 28,
     "rating": 4.4,
     "reviews": 94,
-    "image": "../src/assets/product/PoloTshirt.png",
+    "image": "../../public/product/PoloTshirt.png",
     "colors": ["Navy", "White", "Green", "Red"],
     "sizes": ["S", "M", "L", "XL"],
     "description": "Comfortable polo shirt perfect for casual and business casual occasions."
@@ -99,7 +99,7 @@
     "discount": 29,
     "rating": 4.5,
     "reviews": 112,
-    "image": "../src/assets/product/FloralPrintBlouse.png",
+    "image": "../../public/FloralPrintBlouse.png",
     "colors": ["Pink", "Blue", "White", "Yellow"],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": "Beautiful floral print blouse with comfortable fit and elegant design."
@@ -114,7 +114,7 @@
     "discount": 24,
     "rating": 4.7,
     "reviews": 178,
-    "image": "../src/assets/product/RunningShoes.png",
+    "image": "../../public/product/RunningShoes.png",
     "colors": ["Black", "White", "Blue", "Red"],
     "sizes": ["6", "7", "8", "9", "10", "11", "12"],
     "description": "High-performance running shoes with advanced cushioning and support."
@@ -129,7 +129,7 @@
     "discount": 31,
     "rating": 4.6,
     "reviews": 145,
-    "image": "../src/assets/product/Wallate.png",
+    "image": "../../public/product/Wallate.png",
     "colors": ["Brown", "Black", "Tan"],
     "sizes": ["One Size"],
     "description": "Premium leather wallet with multiple card slots and bill compartments."
@@ -144,7 +144,7 @@
     "discount": 27,
     "rating": 4.8,
     "reviews": 76,
-    "image": "../src/assets/product/Formaldress.png",
+    "image": "../../public/product/Formaldress.png",
     "colors": ["Navy", "Black", "Gray"],
     "sizes": ["S", "M", "L", "XL", "XXL"],
     "description": "Elegant formal blazer perfect for business meetings and special occasions."
@@ -159,7 +159,7 @@
     "discount": 26,
     "rating": 4.4,
     "reviews": 98,
-    "image": "../src/assets/product/CasualSundress.png",
+    "image": "../../public/product/CasualSundress.png",
     "colors": ["Yellow", "Pink", "Blue", "White"],
     "sizes": ["XS", "S", "M", "L"],
     "description": "Light and comfortable sundress perfect for summer outings and vacations."
@@ -174,7 +174,7 @@
     "discount": 29,
     "rating": 4.9,
     "reviews": 134,
-    "image": "../src/assets/product/watch.png",
+    "image": "../../public/product/watch.png",
     "colors": ["Silver", "Gold", "Black"],
     "sizes": ["One Size"],
     "description": "Luxury designer watch with precision movement and elegant design."
