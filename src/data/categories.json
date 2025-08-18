@@ -1,29 +1,30 @@
+
 [
   {
     "id": 1,
     "name": "Men's Clothing",
-    "image": "../src/assets/Mens.png",
+    "image": "../assets/Mens.png",
     "description": "Discover the latest trends in men's fashion",
     "productCount": 156
   },
   {
     "id": 2,
     "name": "Women's Clothing",
-    "image": "../src/assets/Womens.png",
+    "image": "../assets/Womens.png",
     "description": "Elegant and stylish women's apparel",
     "productCount": 234
   },
   {
     "id": 3,
     "name": "Footwear",
-    "image": "../src/assets/footware.png",
+    "image": "../assets/footware.png",
     "description": "Comfortable and trendy footwear for all occasions",
     "productCount": 89
   },
   {
     "id": 4,
     "name": "Accessories",
-    "image": "../src/assets/Accessories.png",
+    "image": "..assets/Accessories.png",
     "description": "Complete your look with our premium accessories",
     "productCount": 67
   },
