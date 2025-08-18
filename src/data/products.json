@@ -159,7 +159,7 @@
     "discount": 26,
     "rating": 4.4,
     "reviews": 98,
-    "image": "https://lh3.googleusercontent.com/gg/AAHar4elr15XdedRO6NkNEFIv3yG0AvlUEsIfE-UKglegTToj0ZFZGAs_yGiGlWz2m7JHIcDwRp_iPTr6Su5vR45Ht5H_m0vG8b3vxI-W3PIj3QprIDramMm5RA_U0kUdiN2VU3yQKTHjmDVWwb7wB1BlxO7tFE7R-LviGd8RprDN0ngT5p-NVtP5ZPOQnSOc7b9M9fMcVf_u5far4I4P1nWJ_hDTUA_nFnKHkNXtyP9vJx0w4bT7bG6ZC-FMi32IkrZhyMLLSvuGB8e76ipZTHqo9btsSBl4DslK57IzAy1MtKtoOP_8WyjuFQml5FnVJTP9xvRhhIS3asi6o_vW5YogIxp",
+    "image": "../../public/product/CasualSundress.png",
     "colors": ["Yellow", "Pink", "Blue", "White"],
     "sizes": ["XS", "S", "M", "L"],
     "description": "Light and comfortable sundress perfect for summer outings and vacations."
@@ -174,7 +174,7 @@
     "discount": 29,
     "rating": 4.9,
     "reviews": 134,
-    "image": "https://lh3.googleusercontent.com/gg/AAHar4dNv0B79mmkaJUNiESIr0-2q0U0R9fyMCQdOdmwxtSTdTXLqxux3YW7H3E-TmjVZZr6yxPXydj-kpA-qpw62mk6XOsazJgW5-QcKmiBRhk8z3a81fGEwlG9vnJcMPDhsJcrPayKNxrNe09xA6QZULjeepmhcSFWqfOdXqHqVnasQRAKiUZ0cehEdmwbz2vugMy-qw-ArNM4WK0KTKZv1W2ZxgFEMt2JBxRKt12vzQPy7ZrxNjZgEzfWxCKfXLK7vmdlUR9_hCk5d_UY96lcEVDXzrCjHTfejMywJuegfvRVo8nyWTtVjSH95GqIeehjN8ShDP7NtvSkIFxbJPoHU49Q",
+    "image": "../../public/product/watch.png",
     "colors": ["Silver", "Gold", "Black"],
     "sizes": ["One Size"],
     "description": "Luxury designer watch with precision movement and elegant design."
